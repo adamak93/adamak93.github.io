@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "private": true,
+  "homepage":"https://adamak93.github.io",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "reac.t-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+   
+  },
+  "devDependencies": {
+    "ajv": "^6.5.4",
+    "url-parse": "^1.4.3"
+  }
+}
